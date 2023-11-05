@@ -1,13 +1,17 @@
-import { Button } from '@chakra-ui/button';
 import React from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import Header from './components/Header';
+import Home from './components/Home';
+import Footer from './components/Footer';
+
 function App() {
   return (
     <Router>
-      <Button>Click me</Button>
+      <Header />
       <Routes>
-        <Route />
+        <Route path="/" element={<Home />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }
