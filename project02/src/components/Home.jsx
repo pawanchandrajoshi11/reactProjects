@@ -35,13 +35,13 @@ const Home = () => {
           h={'full'}
           p={4}
           alignItems={'center'}
-          direction={('column', 'row')}
+          direction={['column', 'row']}
         >
           <Image src={img5} h={[40, 400]} />
           <Text
             letterSpacing={'widest'}
             lineHeight={'190%'}
-            p={[4, 16]}
+            p={['4', '16']}
             textAlign={'center'}
           >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
@@ -55,13 +55,7 @@ const Home = () => {
             deleniti quisquam voluptates veniam! Accusantium culpa rem esse
             suscipit at ratione voluptate, iure dolores optio est corrupti
             fugit, totam nulla! Nesciunt animi deserunt, dolorum facilis
-            consectetur facere. Cupiditate maiores facilis soluta et
-            accusantium, consectetur nihil doloribus dolor error id rerum
-            ducimus iusto accusamus in! Reiciendis perspiciatis rerum illo esse
-            et! Earum cupiditate exercitationem, dolore rem laudantium impedit
-            quae. Molestiae fuga tempora vitae, voluptatum nobis excepturi ea,
-            mollitia reprehenderit necessitatibus esse magnam accusantium
-            laboriosam ipsum consequatur iusto in aut maxime blanditiis?
+            consectetur facere.
           </Text>
         </Stack>
       </Container>
